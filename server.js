@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({ 
-    origin: "http://localhost:5174", 
+    origin: "https://blog-website-frontend-eta.vercel.app/", 
     credentials: true // Ensure credentials are allowed
   }));
   
