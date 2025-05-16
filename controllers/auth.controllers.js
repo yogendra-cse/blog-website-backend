@@ -28,8 +28,8 @@ export const login = async (req, res) => {
       res
         .cookie("token", token, { 
           httpOnly: true, 
-          sameSite: "strict",
           secure: true,
+          sameSite: "None",
           // Add secure: true in production with HTTPS
         })
         .status(200)
@@ -75,7 +75,8 @@ export const register = async (req, res) => {
 export const logout = (req, res) => {
   res.clearCookie("token", { 
     httpOnly: true, 
-    sameSite: "strict",
+    secure: true,
+    sameSite:"None",
     // Add secure: true in production with HTTPS
   })
   .status(200)
