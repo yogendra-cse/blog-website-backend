@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({ 
-    origin: "https://blog-website-frontend-km1qx152a-yogendras-projects-f35387a8.vercel.app/", 
+    origin: "https://blog-website-frontend-km1qx152a-yogendras-projects-f35387a8.vercel.app", 
     credentials: true // Ensure credentials are allowed
   }));
   
