@@ -25,7 +25,7 @@ app.use(express.json());
 
 
 
-mongoose.connect("mongodb+srv://yogendra:yogendra-user@mycluster.u5ayq.mongodb.net/BlogDB").then(
+mongoose.connect("mongodb+srv://rodgeryogendra:rody123@mongocluster.lpblm.mongodb.net/BlogDB").then(
     () => {
         console.log("Connected to database you are good to go hello");
 
